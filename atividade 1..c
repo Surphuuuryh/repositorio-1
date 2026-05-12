@@ -6,6 +6,7 @@ int main(){
     printf("digite o raio da circunferência: ");
     scanf("%f", &raio);
     area = pi * (raio * raio);
-    printf ("a area da circunfêrencia é de %.2f\n", area);
+    printf ("a area da circunfêrencia é de %2.f\n", area);
+
 return 0;
 }
